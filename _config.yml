@@ -1,0 +1,6 @@
+# GitHub Pages renders the three legal .md files through Jekyll with this theme;
+# index.html is served as-is. Titles keep the tab names sane.
+theme: jekyll-theme-minimal
+title: Menu Lens
+description: 메뉴판을 찍으면, 바로 이해됩니다 — Photograph a Korean menu, understand every dish.
+logo: assets/icon.png

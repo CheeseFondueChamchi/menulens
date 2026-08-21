@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu Lens — 메뉴판을 찍으면, 바로 이해됩니다</title>
+<meta name="description" content="한국 식당 메뉴판을 사진 한 장으로 번역·설명해 주는 앱. Point your camera at a Korean menu and understand every dish.">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<meta property="og:title" content="Menu Lens">
+<meta property="og:description" content="메뉴판을 찍으면, 바로 이해됩니다 — Photograph a Korean menu, understand every dish.">
+<meta property="og:image" content="assets/icon.png">
+<style>
+  :root{
+    --cream:#FAF8F5; --card:#FFFFFF; --sage:#6B7F5E; --sage-deep:#5D6E52;
+    --caramel:#C4956A; --caramel-text:#97683C; --ink:#3A3028; --ink-muted:#8A7E70;
+    --mustard:#E8B84B;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--cream);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Segoe UI",Roboto,sans-serif;
+    line-height:1.65}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 40px;text-align:center}
+  header img{width:120px;height:120px;border-radius:28px;box-shadow:0 6px 24px rgba(58,48,40,.10)}
+  h1{font-size:2rem;margin:20px 0 6px;letter-spacing:-.02em}
+  .tagline{font-size:1.1rem;color:var(--ink-muted)}
+  .tagline-en{font-size:.95rem;color:var(--ink-muted);margin-top:2px}
+  section{padding:28px 0}
+  h2{font-size:1.15rem;color:var(--sage-deep);margin-bottom:14px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .card{background:var(--card);border-radius:16px;padding:18px;box-shadow:0 1px 4px rgba(58,48,40,.06)}
+  .card b{display:block;margin-bottom:6px}
+  .card .en{display:block;font-size:.85rem;color:var(--ink-muted);margin-top:6px}
+  .price{background:var(--card);border-radius:16px;padding:20px;box-shadow:0 1px 4px rgba(58,48,40,.06)}
+  .price .pill{display:inline-block;background:rgba(107,127,94,.12);color:var(--sage-deep);
+    font-weight:700;border-radius:999px;padding:5px 14px;margin-bottom:10px}
+  .price small{color:var(--ink-muted);display:block;margin-top:8px}
+  .warn{background:rgba(232,184,75,.14);border:1px solid rgba(232,184,75,.45);
+    border-radius:14px;padding:14px 16px;font-size:.92rem;margin-top:14px}
+  footer{padding:36px 0 48px;font-size:.88rem;color:var(--ink-muted)}
+  footer nav{margin-bottom:12px}
+  footer a{color:var(--sage-deep);text-decoration:none;margin-right:14px}
+  footer a:hover{text-decoration:underline}
+  .badge{font-size:.8rem;color:var(--ink-muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="assets/icon.png" alt="Menu Lens 아이콘 — 목도리를 두른 곰이 메뉴판을 돋보기로 보는 그림">
+  <h1>Menu Lens</h1>
+  <p class="tagline">메뉴판을 찍으면, 바로 이해됩니다.</p>
+  <p class="tagline-en">Photograph a Korean menu — understand every dish.</p>
+</header>
+
+<section>
+  <h2>무엇을 하는 앱인가요 · What it does</h2>
+  <div class="cards">
+    <div class="card"><b>📸 찍고 끝</b>메뉴판 사진 한 장이면 요리 이름을 찾아 번역해 드려요.
+      <span class="en">One photo of the menu is all it takes.</span></div>
+    <div class="card"><b>🔊 주문까지</b>현지 발음 표기로 그대로 읽어 주문할 수 있어요.
+      <span class="en">Pronunciation guides you can read out loud to order.</span></div>
+    <div class="card"><b>🍲 설명과 가격</b>요리마다 재료·맛 설명과 메뉴판의 가격을 함께 보여드려요.
+      <span class="en">Each dish comes with a description and its printed price.</span></div>
+  </div>
+  <div class="warn">⚠️ 번역과 알레르기·식이 정보는 참고용입니다. 알레르기가 있다면 반드시 매장에 직접 확인하세요.
+    <br><span class="badge">Translations and allergen hints are best-effort. Always confirm allergens with restaurant staff.</span></div>
+</section>
+
+<section>
+  <h2>이용 요금 · Pricing</h2>
+  <div class="price">
+    <span class="pill">7일 이용권 · 7-day pass</span>
+    <div>처음 5회는 무료로 써 보실 수 있어요. 이후에는 7일 이용권(₩3,000, 스토어 통화 기준)으로 기간 내 자유롭게 이용하실 수 있습니다. <b>자동 갱신이 아니며</b>, 7일이 지나면 그냥 만료됩니다.</div>
+    <small>Your first 5 analyses are free. After that, a single 7-day pass (₩3,000 or your store's local price) covers unlimited use within fair limits. <b>Nothing auto-renews</b> — the pass simply ends after 7 days.</small>
+  </div>
+</section>
+
+<section>
+  <h2>계정과 개인정보 · Accounts &amp; privacy</h2>
+  <p>로그인 없이 모든 기능을 쓸 수 있어요. 로그인(Apple·Google·카카오)은 다른 기기에서 산 이용권을 불러올 때만 필요합니다. 사진은 서버에 저장하지 않습니다.</p>
+  <p class="badge">No login required — sign in (Apple, Google, Kakao) only to restore a pass across devices. Your photos are never stored on our servers.</p>
+</section>
+
+<footer>
+  <nav>
+    <a href="terms-of-service">이용약관 · Terms</a>
+    <a href="privacy-policy">개인정보처리방침 · Privacy</a>
+    <a href="refund-policy">환불정책 · Refunds</a>
+  </nav>
+  <div>© 2026 Menu Lens. 사업자 정보는 통신판매업 신고 완료 후 게시됩니다.</div>
+  <div class="badge">Seller identification will be posted upon completion of mail-order business registration.</div>
+</footer>
+
+</div>
+</body>
+</html>
