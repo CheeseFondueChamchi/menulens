@@ -27,7 +27,7 @@
 
 ### 제2조 (개인정보의 수집·이용 목적)
 
-1. 익명 디바이스 토큰: 무료 체험(5회) 소진 여부 판단, 7일 패스 유효기간 관리, 부정 이용(우회) 방지
+1. 익명 디바이스 토큰: 무료 체험(매일 5회) 소진 여부 판단, 7일 패스 유효기간 관리, 부정 이용(우회) 방지
 2. 로그인 시 수집 정보(제공자 식별자, 이메일): 구매 복원, 기기 간 서비스 연동, 계정 기반 고객 지원
 3. 운영 로그(추출 텍스트, 타임스탬프, 기기 식별자): 서비스 품질 개선, 오류 진단, 이상 이용 탐지, 법령상 분쟁 대응
 4. 결제 정보: 결제 확인, 환불 처리, 관계 법령(전자상거래법 등)에 따른 거래 기록 보관
@@ -239,16 +239,3 @@ This Privacy Policy takes effect on [PLACEHOLDER — effective date]. Any additi
 ## 변경 이력 / Changelog
 
 - v0.1 draft — 2026-08-19 — Initial draft for legal review.
-
-<!--
-LAWYER REVIEW CHECKLIST (PIPA specialist):
-
-1. Article 4 (overseas transfer) — confirm the OpenAI API data processing terms currently in effect (retention period, whether OpenAI trains models on API data by default, DPA/BAA-equivalent status) and update the PLACEHOLDER with verified specifics. Per docs/pass-research-2026-08.md this is flagged as required disclosure under PIPA §28-8 but the underlying OpenAI terms were not independently verified in that research pass — verify directly against OpenAI's current API terms of use.
-2. Article 3.4 (payment record retention) — verify current statutory retention periods (5 years for payment/supply records, 3 years for complaint/dispute records) against the current 전자상거래법 시행령 text; these figures are from general practice, not directly cited from this session's research.
-3. Article 7 — confirm the described security measures (token hashing, loopback-only admin access) satisfy PIPA Enforcement Decree's 안전성 확보조치 기준 고시 (e.g., whether additional measures like access-log retention duration, encryption-at-rest specifics, or an internal management plan document are also legally required and should be referenced here).
-4. Article 9.3 — set a concrete account-deletion processing timeframe (currently a PLACEHOLDER) consistent with what PIPA/consumer-protection practice expects (commonly interpreted as "without delay," sometimes operationalized as within a small number of business days) and confirm the in-app deletion flow actually exists before publishing.
-5. Confirm whether a designated 개인정보 처리방침 버전 관리 / 이력 페이지 requirement applies (PIPC guidance sometimes expects visible policy-version history within the document itself, not just a changelog line) and whether the current changelog section suffices.
-6. Confirm whether Kakao Login's own data (per Section 5.3 of the research doc, e.g., possible masked/partial email delivery) requires additional disclosure nuance in Article 1/Article 6 about email reliability.
-7. Confirm the breach-notification threshold and timing language in Article 11 matches the current text of PIPA Article 34 and its Enforcement Decree (this draft paraphrases from secondary summary, not directly cited law.go.kr text, per the research doc's own caveat).
-8. Confirm whether operating a 간이과세 개인사업자 (solo, no separate DPO requirement per the research) still requires any additional PIPC registration/disclosure step not captured here.
--->

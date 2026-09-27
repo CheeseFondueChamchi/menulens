@@ -34,8 +34,8 @@
 
 1. 이용자는 「전자상거래법」 제17조에 따라 7일 패스 결제일로부터 **7일 이내**, 패스를 **전혀 사용하지 않은 경우** 전액 환불(청약철회)을 요청할 수 있습니다.
 2. **일부 사용 시 청약철회 제한**: 7일 패스로 **유료 분석을 1회라도 이용한 경우**, 「전자상거래법」 제17조 제2항 제5호에 따라 이미 제공이 개시된 부분에 대한 청약철회가 제한될 수 있습니다.
-3. **이 제한이 적용되는 이유**: 「전자상거래법」 제17조 제6항에 따라, 판매자가 (가) 결제 전 이용자가 미리 체험할 수 있는 수단을 제공하고 (나) 사용 개시 후에는 청약철회가 제한된다는 점을 결제 전에 명확히 고지한 경우에만 위 제한이 유효합니다. 회사는 (가) **기기당 5회 무료 체험**을 제공하고, (나) 이 사실을 본 조를 통해 **결제 전에 고지**함으로써 두 요건을 충족하고자 합니다.
-4. 즉, 이용자는 무료 체험 5회를 통해 서비스 품질을 미리 확인한 뒤 구매를 결정하게 되며, 구매한 패스로 유료 분석을 1회 이상 이용하면 그 시점부터 해당 패스에 대한 청약철회권 행사가 제한됩니다.
+3. **이 제한이 적용되는 이유**: 「전자상거래법」 제17조 제6항에 따라, 판매자가 (가) 결제 전 이용자가 미리 체험할 수 있는 수단을 제공하고 (나) 사용 개시 후에는 청약철회가 제한된다는 점을 결제 전에 명확히 고지한 경우에만 위 제한이 유효합니다. 회사는 (가) **매일 5회의 무료 체험**(로그인 시 계정 기준, 미로그인 시 기기 기준)을 제공하고, (나) 이 사실을 본 조를 통해 **결제 전에 고지**함으로써 두 요건을 충족하고자 합니다.
+4. 즉, 이용자는 매일 제공되는 무료 체험 5회를 통해 서비스 품질을 미리 확인한 뒤 구매를 결정하게 되며, 구매한 패스로 유료 분석을 1회 이상 이용하면 그 시점부터 해당 패스에 대한 청약철회권 행사가 제한됩니다.
 5. 패스를 전혀 사용하지 않은 상태라면, 7일 이내 이메일([PLACEHOLDER — 이메일])로 요청 시 전액 환불합니다.
 
 ### 제3조 (환불 신청 경로)
@@ -93,8 +93,8 @@ This information is shown repeatedly, in advertising and again immediately befor
 
 1. Per Article 17 of the e-commerce consumer protection law, users may request a full refund (withdrawal) within **7 days** of purchasing the 7-day pass, **if the pass has not been used at all.**
 2. **Withdrawal is limited once used.** If the user has used the pass for **even one paid analysis**, withdrawal for the already-provided portion may be limited under Article 17, Paragraph 2, Item 5 of the same law.
-3. **Why this limitation applies here.** Under Article 17, Paragraph 6, a seller may only rely on this limitation if it (a) gave the consumer a way to sample the service beforehand, and (b) clearly disclosed, before purchase, that withdrawal becomes limited once use begins. The Company satisfies both conditions by (a) offering **5 free analyses per device** before any purchase, and (b) disclosing this limitation, right here, **before checkout.**
-4. In practice: users can evaluate Service quality via the 5 free analyses before deciding to purchase. Once a purchased pass is used for one or more paid analyses, the withdrawal right for that pass becomes limited from that point.
+3. **Why this limitation applies here.** Under Article 17, Paragraph 6, a seller may only rely on this limitation if it (a) gave the consumer a way to sample the service beforehand, and (b) clearly disclosed, before purchase, that withdrawal becomes limited once use begins. The Company satisfies both conditions by (a) offering **5 free analyses every day** (per account when signed in, per device otherwise) before any purchase, and (b) disclosing this limitation, right here, **before checkout.**
+4. In practice: users can evaluate Service quality via the 5 free analyses provided each day before deciding to purchase. Once a purchased pass is used for one or more paid analyses, the withdrawal right for that pass becomes limited from that point.
 5. If the pass has not been used at all, emailing [PLACEHOLDER — email] within 7 days results in a full refund.
 
 ### Article 3 (Refund Request Channels)
@@ -127,15 +127,3 @@ This Refund Policy takes effect on [PLACEHOLDER — effective date].
 ## 변경 이력 / Changelog
 
 - v0.1 draft — 2026-08-19 — Initial draft for legal review.
-
-<!--
-LAWYER REVIEW CHECKLIST (e-commerce consumer-protection specialist):
-
-1. Article 2 — this is the highest-risk clause in the whole document set. Per docs/pass-research-2026-08.md Section 6 #2, the research could NOT confirm exact subsection numbers of 전자상거래법 제17조 from live law.go.kr text (reconstructed from secondary summaries only). Verify: (a) Article 17(2)(5) actually covers "일부 사용 후 청약철회 제한" the way drafted here; (b) Article 17(6)'s two conditions (pre-purchase trial + pre-purchase disclosure) are worded correctly and that "5 free analyses" legally qualifies as the kind of trial/preview the statute contemplates; (c) whether KFTC enforcement guidance requires the disclosure to appear in a specific format/location (not just "somewhere before checkout").
-2. Article 2.2 — confirm whether "사용" for withdrawal-limitation purposes should be scoped per-pass or whether ANY usage during the 7-day window taints the whole pass vs. only the already-consumed portion; the statute's "이미 제공이 개시된 부분" language suggests partial/proportional limitation may be more legally correct than an all-or-nothing reading — get explicit guidance before finalizing user-facing copy.
-3. Article 5 — confirm the "3 business days to notify + 3 business days to refund after receiving payment back" figures against current 전자상거래법 제18조 text (this draft's timing figures are standard/typical but not independently re-verified against live statute text this session).
-4. Confirm current FTC 고시 소액 통신판매업 신고 면제 기준 numeric thresholds (research flagged these as unconfirmed) — relevant to whether the placeholder 통신판매업 신고번호 field is even legally mandatory given IAP-only sales, though the operator has stated registration is already in progress regardless.
-5. Confirm whether Article 13 pre-purchase disclosure requires anything beyond a single checkout-screen display — e.g., whether it must also appear in App Store/Play Store listing copy itself, which the operator does not fully control.
-6. Confirm Article 4.2 ("no partial refund, goodwill exceptions at operator discretion") language does not conflict with any KFTC dark-pattern guidance on discretionary/inconsistent refund practices.
-7. Confirm interplay between Company-issued refunds and Apple/Google-issued refunds does not create a double-refund risk in practice (Article 3.4) — recommend a concrete reconciliation mechanism (e.g., checking platform receipt status before approving a Company-side refund) be documented operationally, even though that's a product/ops concern rather than a pure legal-drafting one.
--->

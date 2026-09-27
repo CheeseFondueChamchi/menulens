@@ -24,7 +24,7 @@
 
 ### 제3조 (무료 이용 및 유료 패스)
 
-1. **무료 체험**: 이용자는 기기당 최초 5회의 메뉴 분석을 무료로 이용할 수 있습니다. 이는 유료 상품 구매 전 서비스 내용을 미리 체험할 수 있도록 제공되는 체험 수단입니다.
+1. **무료 체험**: 이용자는 매일 5회의 메뉴 분석을 무료로 이용할 수 있습니다(로그인한 경우 계정 기준, 로그인하지 않은 경우 기기 기준으로 계산하며, 매일 자정에 초기화됩니다). 이는 유료 상품 구매 전 서비스 내용을 미리 체험할 수 있도록 제공되는 체험 수단입니다.
 2. **7일 패스**: 무료 체험 소진 후 이용자는 1회 결제로 7일 패스(가격 3,000원, 부가가치세 포함 여부는 결제 화면에 표시)를 구매할 수 있습니다. 패스는 결제가 완료된 시점부터 7일(168시간) 동안 유효하며, 유효 기간 내 분석 횟수 제한은 결제 화면에 별도로 표시된 바에 따릅니다.
 3. **자동 갱신 없음**: 7일 패스는 자동으로 갱신되거나 재청구되지 않습니다. 7일이 경과하면 패스는 만료되며, 이용자가 계속 이용하려면 신규로 별도 결제를 해야 합니다. 회사는 이용자의 동의 없이 저장된 결제수단으로 재청구하지 않습니다.
 4. **중복 구매(스태킹)**: 기존 패스가 유효한 상태에서 이용자가 새 패스를 구매하면, 새 패스의 유효기간은 기존 패스의 만료 시점에 이어서 누적(스태킹)됩니다. 즉 남은 기간이 사라지지 않고 순차적으로 합산됩니다.
@@ -155,15 +155,3 @@ These Terms take effect on [PLACEHOLDER — effective date].
 ## 변경 이력 / Changelog
 
 - v0.1 draft — 2026-08-19 — Initial draft for legal review.
-
-<!--
-LAWYER REVIEW CHECKLIST (Korean law specialist — e-commerce / consumer protection):
-
-1. Article 5 (availability disclaimer) — confirm the scope of the outage-remedy disclaimer is enforceable and doesn't run afoul of 약관의 규제에 관한 법률 (Act on the Regulation of Terms and Conditions) unfair-clause rules (e.g., Article 7 blanket exemption clauses).
-2. Article 7 (translation-accuracy / allergy disclaimer) — verify this disclaimer's breadth does not qualify as an invalid exemption clause under 약관법 제7-8조 (unfair clauses voiding liability for willful misconduct/gross negligence must remain carved out, which this draft attempts — confirm wording is sufficient). Also check interaction with 제조물책임법 if "information as a product" theories could apply.
-3. Article 3.4 (stacking) — confirm this mechanic doesn't inadvertently create a "정기결제"(recurring payment) characterization under 전자상거래법 §13(6) — per docs/pass-research-2026-08.md Section 6 #1, one-shot non-renewing purchases are out of scope, but confirm stacking multiple one-shot purchases doesn't change that read.
-4. Article 10.3 — confirm whether Korean 국제사법 (Private International Act) consumer-contract special provisions (historically Art. 47, renumbered in recent amendments — verify current article number) require offering the user's home-country mandatory consumer law regardless of a Korea-governing-law clause, especially for EU/US-resident travelers.
-5. Confirm 통신판매업 신고번호 placeholder fields (신고번호, 사업자등록번호, 상호, 대표자, 연락처, 주소) are inserted before this document leaves draft status — registration is in progress per project context.
-6. Confirm whether a Korean consumer-protection-specific "cooling-off"/청약철회 cross-reference belongs directly in the ToS (currently only in refund-policy.md) or should be duplicated here per 전자상거래법 §13 disclosure requirements.
-7. Confirm minimum notice periods in Article 9 (7 days / 30 days for adverse changes) match current 약관법 and 전자상거래법 practice — these are drafted conservatively from general practice, not a cited statute.
--->
