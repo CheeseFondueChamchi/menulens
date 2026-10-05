@@ -1,0 +1,4 @@
+# Local tool state, never part of the published site. This repo is PUBLIC and
+# `git add -A` here would publish whatever a local tool left behind.
+.omc/
+.DS_Store
