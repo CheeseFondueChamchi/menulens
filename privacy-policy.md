@@ -1,16 +1,20 @@
-# Menu Lens 개인정보처리방침
+# 치퐁참 메뉴번역기 개인정보처리방침
 
-> **초안 — 법률 전문가 검토 전**
-> **DRAFT — pending legal review**
->
-> 이 문서는 정식 법률 자문 없이 작성된 초안입니다. 서비스 출시 전 반드시 개인정보보호법 전문 변호사의 검토를 받아야 합니다.
-> This document is a draft prepared without formal legal advice. It must be reviewed by a lawyer specializing in the Personal Information Protection Act (PIPA) before launch.
+이 방침이 적용되는 앱과 그 제공자는 다음과 같습니다.
+
+| 항목 | 내용 |
+|---|---|
+| 앱 이름 | **치퐁참 메뉴번역기 – 무료 메뉴판 사진 번역** (Google Play 등록명, 영문 명칭 Menu Lens) |
+| 패키지 이름 | `work.cfc.flutter_menu_ocr` |
+| 제공자 | **치퐁참** (Chifongcham, 이하 "회사") |
+| 문의처 | gadiun061@gmail.com |
+| 시행일 | 2026년 10월 7일 |
 
 ---
 
 ## 한국어 원문 (Korean — Governing Text)
 
-[사업자명 — PLACEHOLDER]("회사")는 「개인정보보호법」 제30조 등 관계 법령에 따라 이용자의 개인정보를 보호하고 관련 고충을 신속하고 원활하게 처리할 수 있도록 다음과 같이 개인정보처리방침을 수립·공개합니다.
+치퐁참(이하 "회사")은 「개인정보보호법」 제30조 등 관계 법령에 따라 이용자의 개인정보를 보호하고 관련 고충을 신속하고 원활하게 처리할 수 있도록 다음과 같이 개인정보처리방침을 수립·공개합니다.
 
 ### 제1조 (수집하는 개인정보 항목 및 수집 방법)
 
@@ -51,7 +55,7 @@
 | 이전 일시 및 방법 | 메뉴 분석 요청 시마다 API 호출을 통해 실시간 전송 |
 | 이전 항목 | 메뉴판 이미지(처리 목적, 처리 후 즉시 폐기) 및/또는 추출된 텍스트 |
 | 이전받는 자의 이용 목적 | 이미지 내 텍스트 인식 및 번역 처리 |
-| 이전받는 자의 보유·이용 기간 | OpenAI의 API 데이터 처리 정책에 따름 [PLACEHOLDER — 변호사/운영자 검토: OpenAI API 데이터 보유·재사용 정책 최신 조건 확인 및 계약(DPA 등) 체결 여부 명시 필요] |
+| 이전받는 자의 보유·이용 기간 | OpenAI는 2023년 3월 1일 이후 API로 전송된 데이터를 모델 학습에 사용하지 않으며(이용자가 별도로 동의한 경우 제외), 남용 모니터링 목적의 로그를 **최대 30일** 보관한 뒤 삭제합니다(법령상 더 긴 보관이 요구되는 경우 제외). 출처: OpenAI 플랫폼 데이터 관리 문서(2026년 10월 7일 확인). |
 
 이용자는 국외 이전에 관한 동의를 거부할 권리가 있으나, 거부 시 비전 언어모델 기반 메뉴 분석 기능(서비스의 핵심 기능)을 이용할 수 없습니다.
 
@@ -72,7 +76,9 @@
 | OpenAI, Inc. | 메뉴판 이미지/텍스트 인식 및 번역을 위한 비전 언어모델 처리 |
 | Apple Inc. / Google LLC | 인앱결제 처리, 로그인(Sign in with Apple / Google Sign-In) |
 | 카카오 (주식회사 카카오) | 로그인(Kakao Login) |
-| [PLACEHOLDER — 서버/클라우드 호스팅 업체명] | 서버 인프라 운영 (한국 내 서버 운영) |
+| Cloudflare, Inc. | 서버로 들어오는 통신의 암호화 전송 및 중계 (콘텐츠 보관 없음) |
+
+서버 인프라는 **회사가 국내에서 직접 운영**하며, 제3자 클라우드 호스팅 업체에 위탁하지 않습니다.
 
 ### 제7조 (개인정보의 안전성 확보 조치)
 
@@ -82,15 +88,17 @@
 2. **관리 페이지 접근 제한**: 내부 운영(관리자) 페이지는 외부 인터넷에 노출되지 않고, 서버 자체(loopback, 127.0.0.1)에서만 접근 가능하도록 제한되어 있습니다.
 3. **이미지 비저장**: 앞서 밝힌 바와 같이 메뉴판 원본 이미지는 서버에 저장되지 않고 처리 후 즉시 폐기됩니다.
 4. **접근 권한 관리**: 개인정보 처리 시스템에 대한 접근 권한을 최소한의 인원(운영자 본인)으로 제한합니다.
-5. 그 밖에 관계 법령이 요구하는 수준의 기술적·관리적 보호조치를 적용합니다. [PLACEHOLDER — 변호사 검토: 개인정보보호법 시행령상 안전성 확보조치 세부 고시 기준(암호화, 접근통제, 접속기록 보관 등) 충족 여부 상세 점검 필요]
+5. **전송 구간 암호화**: 앱과 서버 사이의 모든 통신은 HTTPS(TLS)로 암호화됩니다.
+6. 그 밖에 관계 법령이 요구하는 수준의 기술적·관리적 보호조치를 적용합니다.
 
 ### 제8조 (개인정보 보호책임자)
 
 회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
 
-- **개인정보 보호책임자**: [PLACEHOLDER — 성명] (운영자 본인 겸임)
-- **연락처(이메일)**: [PLACEHOLDER — 이메일 주소]
-- **연락처(전화)**: [PLACEHOLDER — 전화번호]
+- **개인정보 보호책임자**: 치퐁참 운영자
+- **연락처(이메일)**: gadiun061@gmail.com
+
+회사는 1인이 운영하는 소규모 서비스로, 접수된 문의는 운영자가 직접 처리합니다.
 
 정보주체는 회사의 서비스를 이용하며 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자에게 문의할 수 있습니다.
 
@@ -101,8 +109,8 @@
    - 오류 등이 있을 경우 정정 요구
    - 삭제 요구
    - 처리정지 요구
-2. 제1항에 따른 권리 행사는 회사에 대해 이메일([PLACEHOLDER — 이메일])을 통하여 하실 수 있으며, 회사는 이에 대해 지체 없이 조치하겠습니다.
-3. **계정(로그인 정보) 삭제**: 앱 내 설정 메뉴의 "계정 삭제" 기능 또는 위 이메일을 통해 요청할 수 있습니다. 요청 접수 후 [PLACEHOLDER — 처리 기한, 예: 7일] 이내에 처리됩니다.
+2. 제1항에 따른 권리 행사는 회사에 대해 이메일(gadiun061@gmail.com)을 통하여 하실 수 있으며, 회사는 이에 대해 지체 없이 조치하겠습니다.
+3. **계정(로그인 정보) 삭제**: 앱 내 설정 메뉴의 "계정 삭제" 기능 또는 위 이메일을 통해 요청할 수 있습니다. 앱 내 기능으로 요청한 경우 즉시 처리되며, 이메일로 요청한 경우 접수 후 **7일 이내**에 처리합니다.
 4. 정보주체는 개인정보 침해로 인한 신고나 상담이 필요한 경우 개인정보침해신고센터(privacy.go.kr / 국번없이 182), 대검찰청, 경찰청 등에 문의할 수 있습니다.
 
 ### 제10조 (개인정보의 파기)
@@ -116,11 +124,11 @@
 
 ### 제12조 (쿠키 등 자동 수집 장치)
 
-[PLACEHOLDER — 변호사 검토: 앱에서 쿠키/유사 기술(모바일 광고 식별자 등)을 실제로 사용하는지 기술팀 확인 후 해당 여부에 따라 이 조항 작성/삭제. 현재 파악된 범위에서는 기기 식별자 외 별도 광고 추적 SDK 사용 계획 없음.]
+회사는 앱에서 **광고 식별자(ADID/IDFA)를 수집하지 않으며, 광고·분석 SDK를 일절 탑재하지 않습니다.** 제1조에 적은 익명 디바이스 토큰은 무료 횟수와 이용권 관리를 위해 앱이 자체적으로 생성하는 값이며, 이용자를 다른 앱이나 웹사이트에서 추적하는 데 사용되지 않습니다.
 
 ### 제13조 (개인정보처리방침의 변경)
 
-이 개인정보처리방침은 [PLACEHOLDER — 시행일자]부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 최소 7일 전부터 서비스 내 공지사항을 통하여 고지할 것입니다.
+이 개인정보처리방침은 **2026년 10월 7일**부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 최소 7일 전부터 서비스 내 공지사항을 통하여 고지할 것입니다.
 
 ---
 
@@ -128,7 +136,7 @@
 
 *This is a courtesy translation. In case of any discrepancy, the Korean original text prevails.*
 
-[Business name — PLACEHOLDER] ("Company") establishes and discloses this Privacy Policy in accordance with Article 30 of Korea's Personal Information Protection Act ("PIPA") and related regulations, to protect users' personal information and handle related grievances promptly.
+Chifongcham (치퐁참, the "Company") establishes and discloses this Privacy Policy in accordance with Article 30 of Korea's Personal Information Protection Act ("PIPA") and related regulations, to protect users' personal information and handle related grievances promptly.
 
 ### Article 1 (Items Collected and Method of Collection)
 
@@ -167,7 +175,7 @@ To recognize and translate text from menu images, the Company uses the **API of 
 | Timing and method | Real-time, via API call, for each menu-analysis request |
 | Items transferred | Menu image (for processing only; discarded immediately after) and/or extracted text |
 | Recipient's purpose of use | Text recognition and translation within images |
-| Recipient's retention period | Per OpenAI's API data-handling policy. [PLACEHOLDER — lawyer/operator review: confirm OpenAI's current API data retention/reuse terms and whether a data processing agreement (DPA) has been executed.] |
+| Recipient's retention period | Since 1 March 2023 OpenAI does not use data sent to the API to train its models (absent explicit opt-in), and retains abuse-monitoring logs for **up to 30 days** before deletion, except where longer retention is required by law. Source: OpenAI platform data-controls documentation, checked 7 October 2026. |
 
 Users may decline consent to this overseas transfer, but doing so means the vision-language-model-based menu analysis feature (the Service's core function) cannot be used.
 
@@ -188,7 +196,9 @@ The Company does not provide users' personal information to third parties, excep
 | OpenAI, Inc. | Vision-language-model processing for menu image/text recognition and translation |
 | Apple Inc. / Google LLC | In-app payment processing; login (Sign in with Apple / Google Sign-In) |
 | Kakao Corp. | Login (Kakao Login) |
-| [PLACEHOLDER — server/cloud hosting provider name] | Server infrastructure operation (servers operated in Korea) |
+| Cloudflare, Inc. | Encrypted transport and relay of inbound traffic (stores no content) |
+
+Server infrastructure is **operated directly by the Company in Korea**; no third-party cloud hosting provider is engaged.
 
 ### Article 7 (Security Measures)
 
@@ -196,13 +206,15 @@ The Company does not provide users' personal information to third parties, excep
 2. **Restricted admin access**: the internal operations (admin) page is not exposed to the public internet and is reachable only from the server itself (loopback, 127.0.0.1).
 3. **No image storage**: as noted above, original menu images are never stored server-side and are discarded immediately after processing.
 4. **Access control**: access to personal-information-processing systems is limited to the minimum necessary personnel (the operator).
-5. Other technical/administrative safeguards required by law are applied. [PLACEHOLDER — lawyer review: verify compliance with detailed security-measure standards under PIPA's Enforcement Decree and related notices (encryption, access control, access-log retention, etc.).]
+5. **Encryption in transit**: all traffic between the app and the server is encrypted with HTTPS (TLS).
+6. Other technical and administrative safeguards required by law are applied.
 
 ### Article 8 (Privacy Officer)
 
-- **Privacy Officer**: [PLACEHOLDER — name] (concurrently the Operator)
-- **Email**: [PLACEHOLDER — email address]
-- **Phone**: [PLACEHOLDER — phone number]
+- **Privacy Officer**: the Chifongcham operator
+- **Email**: gadiun061@gmail.com
+
+This is a one-person service; enquiries are handled by the operator directly.
 
 Users may direct all privacy-related inquiries, complaints, and requests for remedy to the Privacy Officer above.
 
@@ -213,8 +225,8 @@ Users may direct all privacy-related inquiries, complaints, and requests for rem
    - Request correction of errors
    - Request deletion
    - Request suspension of processing
-2. These rights may be exercised by emailing [PLACEHOLDER — email]; the Company will act without undue delay.
-3. **Account (login data) deletion**: available via the "Delete Account" feature in the app's settings menu, or by emailing the address above. Requests are processed within [PLACEHOLDER — processing timeframe, e.g., 7 days].
+2. These rights may be exercised by emailing gadiun061@gmail.com; the Company will act without undue delay.
+3. **Account (login data) deletion**: available via the "Delete Account" feature in the app's settings menu, or by emailing the address above. Requests made through the in-app feature take effect immediately; requests sent by email are processed **within 7 days** of receipt.
 4. Users may also contact the Personal Information Infringement Report Center (privacy.go.kr / 182), the Supreme Prosecutors' Office, or the National Police Agency for complaints or reports related to personal information infringement.
 
 ### Article 10 (Destruction of Personal Information)
@@ -228,11 +240,11 @@ If a personal information breach occurs, the Company will, per PIPA Article 34 a
 
 ### Article 12 (Cookies and Similar Automated Collection)
 
-[PLACEHOLDER — lawyer review: confirm with engineering whether cookies or similar tracking technologies (e.g., mobile ad identifiers) are actually used, and draft or remove this article accordingly. As currently understood, no separate ad-tracking SDK is planned beyond the device identifier.]
+The app **collects no advertising identifier (ADID/IDFA) and ships no advertising or analytics SDK of any kind.** The anonymous device token described in Article 1 is generated by the app itself to manage free uses and pass validity; it is never used to track users across other apps or websites.
 
 ### Article 13 (Changes to This Policy)
 
-This Privacy Policy takes effect on [PLACEHOLDER — effective date]. Any additions, deletions, or corrections required by law or policy changes will be announced via in-app notice at least 7 days before they take effect.
+This Privacy Policy takes effect on **7 October 2026**. Any additions, deletions, or corrections required by law or policy changes will be announced via in-app notice at least 7 days before they take effect.
 
 ---
 

@@ -1,10 +1,14 @@
-# Menu Lens 환불정책
+# 치퐁참 메뉴번역기 환불정책
 
-> **초안 — 법률 전문가 검토 전**
-> **DRAFT — pending legal review**
->
-> 이 문서는 정식 법률 자문 없이 작성된 초안입니다. 서비스 출시 전 반드시 전자상거래법 전문 변호사의 검토를 받아야 합니다.
-> This document is a draft prepared without formal legal advice. It must be reviewed by a lawyer specializing in Korean e-commerce consumer-protection law before launch.
+이 정책이 적용되는 앱과 그 판매자는 다음과 같습니다.
+
+| 항목 | 내용 |
+|---|---|
+| 앱 이름 | **치퐁참 메뉴번역기 – 무료 메뉴판 사진 번역** (Google Play 등록명, 영문 명칭 Menu Lens) |
+| 패키지 이름 | `work.cfc.flutter_menu_ocr` |
+| 판매자 | **치퐁참** (Chifongcham, 이하 "회사") |
+| 문의처 | gadiun061@gmail.com |
+| 시행일 | 2026년 10월 7일 |
 
 ---
 
@@ -16,13 +20,11 @@
 
 | 항목 | 내용 |
 |---|---|
-| 판매자(통신판매업자) 상호 | [PLACEHOLDER — 상호] |
-| 대표자 | [PLACEHOLDER — 대표자명] |
-| 사업자등록번호 | [PLACEHOLDER — 사업자등록번호] |
-| 통신판매업 신고번호 | [PLACEHOLDER — 신고번호] (신고 진행 중) |
-| 주소 | [PLACEHOLDER — 사업장 주소] |
-| 연락처(이메일/전화) | [PLACEHOLDER — 연락처] |
-| 상품명 | Menu Lens 7일 패스 |
+| 앱 이름 | 치퐁참 메뉴번역기 – 무료 메뉴판 사진 번역 (`work.cfc.flutter_menu_ocr`) |
+| 판매자 | 치퐁참 (Chifongcham) |
+| 연락처(이메일) | gadiun061@gmail.com |
+| 결제 처리 | Google Play 인앱결제 / Apple App Store 인앱결제 |
+| 상품명 | 7일 패스 (치퐁참 메뉴번역기) |
 | 가격 | 3,000원 (부가가치세 포함 여부는 결제 화면 표시 기준) |
 | 결제 방법 | Apple App Store / Google Play 인앱결제 |
 | 제공 방법 및 시기 | 결제 완료 즉시 앱 내에서 자동 활성화, 결제 시점부터 7일간 이용 가능 |
@@ -36,7 +38,7 @@
 2. **일부 사용 시 청약철회 제한**: 7일 패스로 **유료 분석을 1회라도 이용한 경우**, 「전자상거래법」 제17조 제2항 제5호에 따라 이미 제공이 개시된 부분에 대한 청약철회가 제한될 수 있습니다.
 3. **이 제한이 적용되는 이유**: 「전자상거래법」 제17조 제6항에 따라, 판매자가 (가) 결제 전 이용자가 미리 체험할 수 있는 수단을 제공하고 (나) 사용 개시 후에는 청약철회가 제한된다는 점을 결제 전에 명확히 고지한 경우에만 위 제한이 유효합니다. 회사는 (가) **매일 5회의 무료 체험**(로그인 시 계정 기준, 미로그인 시 기기 기준)을 제공하고, (나) 이 사실을 본 조를 통해 **결제 전에 고지**함으로써 두 요건을 충족하고자 합니다.
 4. 즉, 이용자는 매일 제공되는 무료 체험 5회를 통해 서비스 품질을 미리 확인한 뒤 구매를 결정하게 되며, 구매한 패스로 유료 분석을 1회 이상 이용하면 그 시점부터 해당 패스에 대한 청약철회권 행사가 제한됩니다.
-5. 패스를 전혀 사용하지 않은 상태라면, 7일 이내 이메일([PLACEHOLDER — 이메일])로 요청 시 전액 환불합니다.
+5. 패스를 전혀 사용하지 않은 상태라면, 7일 이내 이메일(gadiun061@gmail.com)로 요청 시 전액 환불합니다.
 
 ### 제3조 (환불 신청 경로)
 
@@ -61,7 +63,7 @@
 
 ### 부칙
 
-이 환불정책은 [PLACEHOLDER — 시행일자]부터 적용됩니다.
+이 환불정책은 **2026년 10월 7일**부터 적용됩니다.
 
 ---
 
@@ -75,12 +77,10 @@ Per Article 13 of Korea's Act on Consumer Protection in Electronic Commerce ("�
 
 | Item | Detail |
 |---|---|
-| Seller (mail-order business) name | [PLACEHOLDER — trade name] |
-| Representative | [PLACEHOLDER — representative's name] |
-| Business registration number | [PLACEHOLDER — business registration number] |
-| Mail-order business registration number | [PLACEHOLDER — registration number] (registration in progress) |
-| Address | [PLACEHOLDER — business address] |
-| Contact (email/phone) | [PLACEHOLDER — contact info] |
+| App | 치퐁참 메뉴번역기 – 무료 메뉴판 사진 번역 (`work.cfc.flutter_menu_ocr`) |
+| Seller | Chifongcham (치퐁참) |
+| Contact (email) | gadiun061@gmail.com |
+| Payment processing | Google Play in-app billing / Apple App Store in-app purchase |
 | Product name | Menu Lens 7-Day Pass |
 | Price | ₩3,000 (whether VAT-inclusive is shown at checkout) |
 | Payment method | Apple App Store / Google Play in-app purchase |
@@ -95,7 +95,7 @@ This information is shown repeatedly, in advertising and again immediately befor
 2. **Withdrawal is limited once used.** If the user has used the pass for **even one paid analysis**, withdrawal for the already-provided portion may be limited under Article 17, Paragraph 2, Item 5 of the same law.
 3. **Why this limitation applies here.** Under Article 17, Paragraph 6, a seller may only rely on this limitation if it (a) gave the consumer a way to sample the service beforehand, and (b) clearly disclosed, before purchase, that withdrawal becomes limited once use begins. The Company satisfies both conditions by (a) offering **5 free analyses every day** (per account when signed in, per device otherwise) before any purchase, and (b) disclosing this limitation, right here, **before checkout.**
 4. In practice: users can evaluate Service quality via the 5 free analyses provided each day before deciding to purchase. Once a purchased pass is used for one or more paid analyses, the withdrawal right for that pass becomes limited from that point.
-5. If the pass has not been used at all, emailing [PLACEHOLDER — email] within 7 days results in a full refund.
+5. If the pass has not been used at all, emailing gadiun061@gmail.com within 7 days results in a full refund.
 
 ### Article 3 (Refund Request Channels)
 
@@ -120,7 +120,7 @@ This Refund Policy applies together with Menu Lens's Terms of Service and Privac
 
 ### Supplementary Provision
 
-This Refund Policy takes effect on [PLACEHOLDER — effective date].
+This Refund Policy takes effect on **7 October 2026**.
 
 ---
 

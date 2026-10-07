@@ -1,10 +1,14 @@
-# Menu Lens 이용약관
+# 치퐁참 메뉴번역기 이용약관
 
-> **초안 — 법률 전문가 검토 전**
-> **DRAFT — pending legal review**
->
-> 이 문서는 정식 법률 자문 없이 작성된 초안입니다. 서비스 출시 전 반드시 변호사(전자상거래/개인정보 전문)의 검토를 받아야 합니다.
-> This document is a draft prepared without formal legal advice. It must be reviewed by a lawyer (e-commerce / privacy specialist) before launch.
+이 약관이 적용되는 앱과 그 제공자는 다음과 같습니다.
+
+| 항목 | 내용 |
+|---|---|
+| 앱 이름 | **치퐁참 메뉴번역기 – 무료 메뉴판 사진 번역** (Google Play 등록명, 영문 명칭 Menu Lens) |
+| 패키지 이름 | `work.cfc.flutter_menu_ocr` |
+| 제공자 | **치퐁참** (Chifongcham, 이하 "회사") |
+| 문의처 | gadiun061@gmail.com |
+| 시행일 | 2026년 10월 7일 |
 
 ---
 
@@ -14,7 +18,7 @@
 
 ### 제1조 (목적)
 
-이 약관은 [사업자명 — 사업자등록증상 상호, PLACEHOLDER]("회사" 또는 "운영자")가 제공하는 메뉴 번역 서비스 "Menu Lens"(이하 "서비스")의 이용과 관련하여 회사와 이용자 간의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.
+이 약관은 치퐁참("회사" 또는 "운영자")이 제공하는 메뉴 번역 서비스 "치퐁참 메뉴번역기"(영문 명칭 Menu Lens, 이하 "서비스")의 이용과 관련하여 회사와 이용자 간의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.
 
 ### 제2조 (서비스의 내용)
 
@@ -45,7 +49,7 @@
 ### 제5조 (서비스 이용 가능성 및 중단)
 
 1. 회사는 서비스를 안정적으로 제공하기 위해 노력하지만, 시스템 점검, 서버 장애, 제3자(비전 언어모델 제공업체 등) 서비스 장애, 천재지변 등의 사유로 서비스가 일시 중단될 수 있습니다.
-2. 유료 패스 유효기간 중 서비스 중단이 발생한 경우, 회사는 합리적인 범위에서 유효기간 연장 또는 환불 등 구제 조치를 제공하도록 노력합니다. 다만 이는 법적 의무가 아닌 운영자의 재량에 따른 조치입니다. [PLACEHOLDER — 변호사 검토: 중대한 장기 중단 시 법정 책임 범위 확정 필요]
+2. 유료 패스 유효기간 중 서비스 중단이 발생한 경우, 회사는 합리적인 범위에서 유효기간 연장 또는 환불 등 구제 조치를 제공하도록 노력합니다. 다만 이는 법적 의무가 아닌 운영자의 재량에 따른 조치입니다.
 
 ### 제6조 (지식재산권)
 
@@ -55,7 +59,7 @@
 
 1. **번역 정확도 미보장**: 서비스는 인공지능 비전 언어모델을 이용하여 메뉴판 이미지를 인식하고 번역합니다. 이미지 화질, 필기체, 조명, 언어 조합 등에 따라 **인식 오류, 오역, 누락이 발생할 수 있습니다.** 서비스가 제공하는 번역 및 정보는 참고용이며, 회사는 그 완전성·정확성을 보장하지 않습니다.
 2. **알레르기 및 식이 정보 경고 (중요)**: ⚠️ **서비스가 제공하는 알레르기 유발 성분, 식이 표시(비건, 할랄 등) 관련 정보는 참고용일 뿐이며 완전하거나 정확하다고 보장되지 않습니다. 알레르기, 식이 제한, 건강상 이유로 특정 음식을 피해야 하는 이용자는 반드시 매장 직원에게 직접 확인해야 하며, 서비스 정보만을 근거로 주문을 결정해서는 안 됩니다.**
-3. 회사는 서비스 정보를 신뢰하여 발생한 주문 실수, 알레르기 반응, 금전적·신체적 손해에 대하여 고의 또는 중과실이 없는 한 책임을 지지 않습니다. [PLACEHOLDER — 변호사 검토: 소비자기본법·제조물책임법과의 관계, 면책 범위의 유효성(약관법상 무효 조항 여부) 검토 필요]
+3. 회사는 서비스 정보를 신뢰하여 발생한 주문 실수, 알레르기 반응, 금전적·신체적 손해에 대하여 고의 또는 중과실이 없는 한 책임을 지지 않습니다.
 
 ### 제8조 (계정 및 탈퇴)
 
@@ -72,11 +76,11 @@
 
 1. 이 약관은 대한민국 법령에 따라 규율되고 해석됩니다.
 2. 서비스 이용과 관련하여 회사와 이용자 간 분쟁이 발생한 경우, 관할 법원은 민사소송법상 관할 규정에 따릅니다.
-3. 해외 이용자의 경우, 대한민국 소비자 관련 법령이 적용되지 않을 수 있는 사항에 대해서는 이용자가 거주하는 국가의 강행법규가 우선 적용될 수 있습니다. [PLACEHOLDER — 변호사 검토: 국제사법상 소비자계약 특례(대한민국 국제사법 제47조 등) 적용 여부 확인 필요]
+3. 해외 이용자의 경우, 대한민국 소비자 관련 법령이 적용되지 않을 수 있는 사항에 대해서는 이용자가 거주하는 국가의 강행법규가 우선 적용될 수 있습니다.
 
 ### 부칙
 
-이 약관은 [PLACEHOLDER — 시행일자]부터 적용됩니다.
+이 약관은 **2026년 10월 7일**부터 적용됩니다.
 
 ---
 
@@ -86,7 +90,7 @@
 
 ### Article 1 (Purpose)
 
-These Terms govern the rights, obligations, and responsibilities between [Business name — PLACEHOLDER, as registered on the business registration certificate] ("Company" or "Operator") and users of the menu-translation service "Menu Lens" ("Service").
+These Terms govern the rights, obligations, and responsibilities between Chifongcham (치퐁참, the "Company" or "Operator") and users of the menu-translation service "Menu Lens" ("Service").
 
 ### Article 2 (Description of the Service)
 
@@ -117,7 +121,7 @@ Violations may result in restricted access or account suspension, with prior not
 ### Article 5 (Availability and Interruption)
 
 1. The Company will make reasonable efforts to keep the Service stable, but interruptions may occur due to maintenance, server failure, failure of third-party services (e.g., the vision-language-model provider), or force majeure.
-2. If an interruption occurs during a valid paid pass period, the Company will make reasonable efforts to offer a remedy such as extending validity or issuing a refund — at the Operator's discretion, not as a guaranteed legal entitlement. [PLACEHOLDER — lawyer review: confirm the legal scope of liability for extended outages.]
+2. If an interruption occurs during a valid paid pass period, the Company will make reasonable efforts to offer a remedy such as extending validity or issuing a refund — at the Operator's discretion, not as a guaranteed legal entitlement.
 
 ### Article 6 (Intellectual Property)
 
@@ -127,7 +131,7 @@ The Company owns intellectual property rights in the Service's software, UI, tra
 
 1. **Translation accuracy is not guaranteed.** The Service uses an AI vision-language model to recognize and translate menu images. Depending on image quality, handwriting, lighting, and language pairing, **recognition errors, mistranslations, and omissions may occur.** Translations and information provided are for reference only; the Company does not guarantee their completeness or accuracy.
 2. **Allergy and dietary information warning (important):** ⚠️ **Any allergen or dietary information (vegan, halal, etc.) shown by the Service is for reference only and is not guaranteed to be complete or accurate. Users with allergies, dietary restrictions, or health-related food limitations must confirm directly with restaurant staff and must not rely solely on Service information when deciding what to order.**
-3. Except in cases of the Company's willful misconduct or gross negligence, the Company is not liable for ordering mistakes, allergic reactions, or financial or physical harm resulting from reliance on Service information. [PLACEHOLDER — lawyer review: check interaction with the Framework Act on Consumers and Product Liability Act, and whether this disclaimer's scope is valid under standard-terms law.]
+3. Except in cases of the Company's willful misconduct or gross negligence, the Company is not liable for ordering mistakes, allergic reactions, or financial or physical harm resulting from reliance on Service information.
 
 ### Article 8 (Account and Deletion)
 
@@ -144,11 +148,11 @@ The Company may amend these Terms within the bounds of applicable law, and will 
 
 1. These Terms are governed by and construed under the laws of the Republic of Korea.
 2. Jurisdiction for disputes between the Company and users follows the applicable rules of the Korean Civil Procedure Act.
-3. For overseas users, mandatory consumer-protection rules of their country of residence may take precedence over Korean law where Korean consumer law does not apply. [PLACEHOLDER — lawyer review: confirm applicability of Korean Private International Act Article 47 (consumer contract special rule) or equivalent.]
+3. For overseas users, mandatory consumer-protection rules of their country of residence may take precedence over Korean law where Korean consumer law does not apply.
 
 ### Supplementary Provision
 
-These Terms take effect on [PLACEHOLDER — effective date].
+These Terms take effect on **7 October 2026**.
 
 ---
 
